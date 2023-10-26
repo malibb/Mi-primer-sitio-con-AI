@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.link {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+
+.profile-picture {
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-picture img {
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+/* Media query para pantallas más grandes (como computadoras) */
+@media (min-width: 768px) {
+    .link {
+        max-width: 400px; /* Establece un ancho máximo para los botones en computadoras */
+        margin: 20px auto; /* Centra los botones horizontalmente en la pantalla de la computadora */
+    }
+}
